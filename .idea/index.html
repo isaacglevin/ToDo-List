@@ -1,0 +1,41 @@
+<!--User Interface:-->
+
+<!--Design a user interface for the to-do list, including input fields for adding new-->
+<!--tasks and a list to display existing tasks.-->
+<!--Use CSS to style the user interface, making it visually appealing and easy to use.-->
+<!--Add Task/Display Functionality:-->
+
+<!--Implement functionality to add new tasks to the to-do list. When the user enters -->
+<!--a task and clicks an "Add" button or presses Enter, the task should be added to the list.-->
+<!--Display the list of tasks on the web page. Each task should be represented as an -->
+<!--item in the list. (e.g. add the task and task buttons to a div ).-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles.css">
+  <title>To-Do List App</title>
+
+
+</head>
+<body>
+<H1>To-Do List App</H1>
+
+<section id="taskBox">
+  <button id="addToDoBtn">Add Task</button>
+</section>
+
+<div id="modalOverlay">
+  <div id="taskModal">
+    <button id="closeBtn">X</button>
+    <label for="textInput"></label><input id="textInput" placeholder="Enter a task">
+    <button id="submitBtn">Submit</button>
+  </div>
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
